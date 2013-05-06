@@ -1,0 +1,29 @@
+Package: retropol
+Version: 0.02
+Date: 2013-04-28
+Title: Framework for Retro- and Interpolation of Historical Time Series
+Author: Christoph Sax
+Maintainer: Christoph Sax <christoph.sax@gmail.com>
+Description: Framework for Retro- and Interpolation of Historical Time Series
+License: GPL-3
+LazyLoad: yes
+Depends:
+    stats,
+    tstools,
+    tempdisagg,
+    stinepack
+Imports:
+    stats,
+    tstools,
+    tempdisagg,
+    stinepack
+Collate:
+    'build.R'
+    'doc-for-rts.R'
+    'doc.R'
+    'doclist.R'
+    'index.R'
+    'load.R'
+    'methods.R'
+    'plot.R'
+    'rts.R'
